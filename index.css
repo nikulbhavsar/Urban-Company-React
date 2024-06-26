@@ -8,6 +8,7 @@
     float: left;
     position: fixed;
     background: #FFF;
+    border-bottom: 1px solid silver;
 }
 
 .logo{
@@ -15,7 +16,7 @@
     width: 10.5%;
     float: left;
     margin: 18px 0px 0px 57px;
-    background-color: antiquewhite;
+    background-color: #FFF;
     overflow: hidden;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .logo img:hover {
-    transform: scale(1.1);
+    transform: scale(1);
     
 }
 
@@ -36,7 +37,7 @@
     width: 54%;
     float: left;
     margin: 0px 0px 0px 90px;
-    background-color: antiquewhite;
+    background-color: #FFF;
 }
 
 .form select{
@@ -65,7 +66,7 @@
     width: 10%;
     float: left;
     margin: 0px 0px 0px 140px;
-    background-color: antiquewhite;
+    background-color: #FFF;
 }
 
 .login button{
@@ -81,42 +82,37 @@
     height: 730px;
     width: 100%;
     float: left;
-    background-color: blueviolet;
+    background-color:#FFF;
     margin-top: 85px;
     display: flex;
 }
 .left-div{
     height: 100%;
     width: 50%;
-    background-color: rgb(150, 212, 91);
+    background-color: #FFF;
     float: left;
 }
 
-.right-div{
-    height: 100%;
-    width: 50%;
-    background-color: rgb(11, 145, 197);
-    float: left;
-}
 .h1{
     height: 10%;
     width: 72%;
     float: left;
-    background-color: black;
-    color: white;
+    background-color:#FFF;
+    color: black;
     margin: 50px 0px 0px 55px;
-    font-family:sans-serif;
+    font-family:Arial;
 }
 
 .left-services{
     height: 56%;
     width: 72%;
     float: left;
-    background-color: rgb(61, 51, 199);
+    background-color:#FFF;
     color: white;
     margin: 50px 0px 0px 55px;
     font-family:sans-serif;
     border-radius: 10px;
+    border: 1px solid silver;
 }
 
 .ls-h4{
@@ -124,8 +120,9 @@
     width: 50%;
     float: left;
     font-family: sans-serif;
-    background-color: aqua;
+    background-color:#FFF;
     margin: 35px 0px 0px 25px;
+    color: rgb(78, 68, 68);
 }
 
 .left-services h4{
@@ -137,7 +134,7 @@
     height: 28%;
     width: 100%;
     float: left;
-    background-color: yellow;
+    background-color:#FFF;
     margin: 30px 0px 0px 0px;
 }
 
@@ -157,29 +154,141 @@
     background-color:#f0f2f5; 
 }
 
-.para1{
-    height: 10%;
+.para1, .para2, .para3 {
+    height: 30%;
     width: 28%;
     float: left;
-    background-color:purple ;
+    background-color:white;
+    margin: 0px 0px 0px 20px;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.para2{
-    height: 10%;
-    width: 28%;
-    float: left;
-    background-color:#f0f2f5 ;
-}
-
-.para3{
-    height: 5%;
-    width: 28%;
-    float: left;
-    background-color:#f0f2f5 ;
+.para1:hover, .para2:hover, .para3:hover {
+    background-color:#f0f2f5;
+    opacity: .8;
+    border-bottom: 2px solid black;
+    
 }
 
 .ls-im1-div img{
     margin: 5px 0px 0px 40px;
+}
+
+.ls-im2{
+    height: 20%;
+    width: 42%;
+    float: left;
+    background-color:#f0f2f5 ;
+    margin: 15px 0px 0px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* position: relative; */
+    transition: background-color 0.3s ease;
+}
+
+.ls-im2-p{
+    height: 100%;
+    width: 70%;
+    background-color:#f0f2f5;
+    float: left;
+    border-radius: 5px;
+    /* color: black;
+    margin: 30px 0px 0px 10px;
+    font-size: 13px; */
+}
+
+.ls-im2-p p{
+    font-size: 13px;
+    margin: 25px 0px 0px 10px;
+    color: black;
+    font-family: Arial;
+}
+
+.main-imge{
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-color: #f0f2f5;
+    border-radius: 5px;
+}
+
+.main-imge img{
+    margin: 13px 0px 0px 3px;
+}
+/* .ls-im2 img{
+    margin: 0px 0px 50px 140px;
+} */
+
+.ls-im2:hover{
+    opacity: .8;
+    background-color:#f0f2f5; 
+}
+
+.review{
+    height: 12%;
+    width: 72%;
+    float: left;
+    /* background-color: rgb(61, 51, 199); */
+    background-color: white;
+    color: white;
+    margin: 59px 0px 0px 55px;
+
+}
+.review1{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: black;
+}
+
+.review2{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: rgb(201, 36, 36);
+}
+
+.rev-img{
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-color: #FFF;
+}
+
+.rev-img img{
+    height: 50%;
+    width: 60%;
+    margin: 20px 0px 0px 15px;
+}
+
+.rev-info{
+    height: 100%;
+    width: 70%;
+    float: left;
+    background-color:white;
+}
+
+.rev-info h2{
+    color: black;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.rev-info p{
+    margin-top: 5px;
+    color:gray;
+    font-family: Arial;
+}
+
+.right-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(11, 145, 197); */
+    float: left;
 }
 
 .right-image{
@@ -197,4 +306,62 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
+}
+
+.section3{
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+
+.sec3-im-div1{
+    height: 65%;
+    width: 93%;
+    float: left;
+    /* background-color: aqua; */
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin: 90px 0px 0px 55px;
+}
+
+.sec3-im{
+    height: 85%;
+    min-width: 31.8%;
+    width: 28%;
+    float: left;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(238, 87, 49);
+}
+
+.sec3-im img{
+    height:100%;
+    width: 100%;
+     transition: 0.2s all ease-in-out;
+}
+
+.sec3-im1{
+    height: 85%;
+    min-width: 31.8%;
+    width: 28%;
+    float: left;
+    margin: 20px 0px 0px 2px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(238, 87, 49);
+}
+
+.sec3-im1 img{
+    height:100%;
+    width: 100%;
+    transition: 0.2s all ease-in-out;
+}
+
+.sec3-im img:hover, .sec3-im1 img:hover {
+    transform: scale(1.1);
 }
