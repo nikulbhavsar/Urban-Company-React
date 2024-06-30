@@ -27,8 +27,7 @@
 }
 
 .logo img:hover {
-    transform: scale(1);
-    
+    transform: scale(1.1);
 }
 
 
@@ -313,7 +312,7 @@
     width: 100%;
     float: left;
     background-color: white;
-    border-bottom: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
 }
 
 
@@ -342,6 +341,7 @@
 .sec3-im img{
     height:100%;
     width: 100%;
+    cursor: pointer;
      transition: 0.2s all ease-in-out;
 }
 
@@ -359,9 +359,195 @@
 .sec3-im1 img{
     height:100%;
     width: 100%;
+    cursor: pointer;
     transition: 0.2s all ease-in-out;
 }
 
 .sec3-im img:hover, .sec3-im1 img:hover {
+    transform: scale(1.1);
+}
+
+/* secctionk 4 */
+
+.section4{
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-color: white;
+    /* border-bottom: 1px solid gray; */
+}
+
+.sec4-head{
+    height: 10%;
+    width: 30%;
+    font-family: Arial;
+    float: left;
+    margin: 20px 0px 0px 55px;
+    /* background-color: rgb(158, 14, 14); */
+}
+
+.sec4-im-div1{
+    height: 75%;
+    width: 93%;
+    float: left;
+    /* background-color: rgb(166, 255, 0); */
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin: 5px 0px 0px 55px;
+}
+
+.sec4-imag{
+    height: 85%;
+    min-width: 100%;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 0px px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-color: rgb(238, 87, 49); */
+}
+
+.sec3-para{
+    /* margin-top: 5px; */
+    font-family: Arial;
+    color: rgb(63, 56, 56);
+    font-weight: bolder;
+    /* height: 10%; */
+    float: left;
+    margin: 20px 0px 0px 0px ;
+    /* background-color: blueviolet; */
+}
+
+.sec4-im{
+    height: 92%;
+    min-width: 18.5%;
+    width: 28%;
+    float: left;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    /* background-color: rgb(238, 87, 49); */
+}
+
+.sec4-im img{
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+     transition: 0.2s all ease-in-out;
+}
+
+.sec4-im1{
+    height: 92%;
+    min-width: 18.5%;
+    /* width: 28%; */
+    float: left;
+    margin: 20px 0px 0px 2px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+.sec4-im1 img{
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.sec4-im img:hover, .sec4-im1 img:hover {
+    transform: scale(1.1);
+}
+
+
+/* secctionk 5 */
+
+.section5{
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-color: white;
+    /* border-bottom: 1px solid gray; */
+}
+
+.sec5-head{
+    height: 10%;
+    width: 30%;
+    font-family: Arial;
+    float: left;
+    margin: 20px 0px 0px 55px;
+    background-color: rgb(158, 14, 14);
+}
+
+.sec5-im-div1{
+    height: 85%;
+    width: 93%;
+    float: left;
+    background-color: rgb(166, 255, 0);
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin: 5px 0px 0px 55px;
+}
+
+.sec5-imag{
+    height: 75%;
+    min-width: 100%;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 0px px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(238, 87, 49);
+}
+
+.sec5-para{
+    /* margin-top: 5px; */
+    font-family: Arial;
+    /* height: 10%; */
+    float: left;
+    margin: 15px 0px 0px 0px ;
+    background-color: blueviolet;
+}
+
+.sec5-im{
+    height: 92%;
+    min-width: 18.5%;
+    width: 28%;
+    float: left;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgb(238, 87, 49);
+}
+
+.sec5-im img{
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+     transition: 0.2s all ease-in-out;
+}
+
+.sec5-im1{
+    height: 92%;
+    min-width: 18.5%;
+    /* width: 28%; */
+    float: left;
+    margin: 20px 0px 0px 2px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.sec5-im1 img{
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.sec5-im img:hover, .sec5-im1 img:hover {
     transform: scale(1.1);
 }
