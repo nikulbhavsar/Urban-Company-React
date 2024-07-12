@@ -310,12 +310,13 @@
     margin: 43px 0px 0px 0px;
     font-family:sans-serif;
     border-radius: 10px;
+    
 }
 
-.right-img1 img{
+.sec1_right_iamge{
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .section3{
