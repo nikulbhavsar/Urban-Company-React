@@ -310,15 +310,16 @@
     margin: 43px 0px 0px 0px;
     font-family:sans-serif;
     border-radius: 10px;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     
 }
 
-/* .sec1_right_iamge{
+.sec1_right_iamge{
     height: 100%;
     width: 100%;
     border-radius: 10px;
-} */
+    background-size: 100% 100%;
+}
 
 .section3{
     height: 400px;
