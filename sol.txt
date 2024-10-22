@@ -1,0 +1,51 @@
+I was hosting my front-end web page trough the GitHub, but image is not show on live  
+
+//HTML CODE 
+  <div class="right-div">
+        <div class="right-image">
+            <div class="right-img1">
+            <img class="sec1_right_iamge" src="/Image/right_main.png" alt="service_banner">
+        </div>
+        </div>
+    </div>
+
+    //CSS CODE
+
+    .right-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(11, 145, 197); */
+    float: left;
+}
+
+.right-image{
+    height: 84%;
+    width: 92%;
+    float: left;
+    /* background-color: rgb(193, 238, 32); */
+    color: white;
+    margin: 43px 0px 0px 0px;
+    font-family:sans-serif;
+    border-radius: 10px;
+}
+
+.right-img1{
+    height: 100%;
+    width: 100%;
+    float: left;
+    /* background-color: rgb(193, 238, 32); */
+    color: white;
+    margin: 43px 0px 0px 0px;
+    font-family:sans-serif;
+    border-radius: 10px;
+    /* background-size: 100% 100%; */
+    
+}
+
+.sec1_right_iamge{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: 100% 100%;
+}
+
